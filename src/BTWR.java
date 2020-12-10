@@ -74,7 +74,7 @@ public class BTWR {
             stackB[i] = sc.nextInt();
         }
 
-        int minCoins = getMaxHeight(num, stackA, stackB);
-        System.out.println(minCoins);
+        int maxHeight = getMaxHeight(num, stackA, stackB);
+        System.out.println(maxHeight);
     }
 }
